@@ -12,8 +12,12 @@ $ npm install --save measurewords-zh
 ```js
 var mw = require('measurewords-zh');
 
-mw.measureWord('狗');
-//=> ['条','只']
+mw('狗', function(err, measureWords) {
+    if (err) {
+        throw err;
+    }
+    //measureWords=> ['条','只']
+});
 ```
 
 ## API
