@@ -1,6 +1,6 @@
 {
   "name": "measurewords-zh",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get the measure word for a word in chinese",
   "main": "index.js",
   "scripts": {
